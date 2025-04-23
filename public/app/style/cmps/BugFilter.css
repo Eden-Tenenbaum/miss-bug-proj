@@ -1,0 +1,9 @@
+.bug-filter {
+    margin-bottom: 1em;
+}
+
+.bug-filter form {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}

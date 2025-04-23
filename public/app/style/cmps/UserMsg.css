@@ -1,0 +1,28 @@
+.user-msg {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+.user-msg.success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.user-msg.error {
+    background-color: #f44336;
+    color: white;
+}
+
+.user-msg .close-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    color: white;
+    margin-left: 1em;
+    cursor: pointer;
+}
